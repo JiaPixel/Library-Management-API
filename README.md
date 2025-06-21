@@ -75,7 +75,7 @@ This project is configured for easy deployment on [Vercel](https://vercel.com/).
 3.  Add your `DATABASE_URL` as an environment variable in the Vercel project settings.
 4.  Deploy!
 
-**Live URL:** [Add your Vercel deployment link here]
+**Live URL:** https://library-management-api-beige.vercel.app/
 
 ---
 **Reminder for your submission:** Don't forget to create a short video explaining the key logic (especially the borrow functionality and aggregation pipeline) and the overall structure, and include the public link in your submission. Good luck!
