@@ -12,7 +12,7 @@ A robust RESTful API for managing a library's book inventory and borrowing syste
 -   **Robust Error Handling**: Centralized error handling for validation, not-found, and server errors.
 -   **Ready for Deployment**: Includes configuration for seamless deployment to Vercel.
 
-## Local Setup
+
 
 ### Prerequisites
 
@@ -53,5 +53,4 @@ This project is configured for easy deployment on [Vercel](https://vercel.com/).
 
 **Live URL:** https://library-management-api-beige.vercel.app/
 
----
-**Reminder for your submission:** Don't forget to create a short video explaining the key logic (especially the borrow functionality and aggregation pipeline) and the overall structure, and include the public link in your submission. Good luck!
+Thanks
