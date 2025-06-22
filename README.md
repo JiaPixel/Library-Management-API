@@ -20,31 +20,7 @@ A robust RESTful API for managing a library's book inventory and borrowing syste
 -   [npm](https://www.npmjs.com/)
 -   [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) account (or a local MongoDB instance)
 
-### Installation
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/](https://github.com/)<YourUsername>/Library-Management-API.git
-    cd Library-Management-API
-    ```
-
-2.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
-
-3.  **Set up environment variables:**
-    Create a `.env` file in the root directory and add the following:
-    ```
-    PORT=5000
-    DATABASE_URL=<Your_MongoDB_Connection_String>
-    ```
-
-4.  **Run the development server:**
-    ```bash
-    npm run dev
-    ```
-    The server will start on `http://localhost:5000`.
 
 ## API Endpoints
 
