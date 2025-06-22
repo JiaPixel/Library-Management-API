@@ -12,7 +12,7 @@ A robust RESTful API for managing a library's book inventory and borrowing syste
 -   **Robust Error Handling**: Centralized error handling for validation, not-found, and server errors.
 -   **Ready for Deployment**: Includes configuration for seamless deployment to Vercel.
 
-
+## Local Setup
 
 ### Prerequisites
 
@@ -20,7 +20,31 @@ A robust RESTful API for managing a library's book inventory and borrowing syste
 -   [npm](https://www.npmjs.com/)
 -   [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) account (or a local MongoDB instance)
 
+### Installation
 
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/JiaPixel/Library-Management-API.git
+    cd Library-Management-API
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Set up environment variables:**
+    Create a `.env` file in the root directory and add the following:
+    ```
+    PORT=5000
+    DATABASE_URL=<Your_MongoDB_Connection_String>
+    ```
+
+4.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+    The server will start on `http://localhost:5000`.
 
 ## API Endpoints
 
@@ -53,4 +77,5 @@ This project is configured for easy deployment on [Vercel](https://vercel.com/).
 
 **Live URL:** https://library-management-api-beige.vercel.app/
 
-Thanks
+---
+**Reminder for your submission:** Don't forget to create a short video explaining the key logic (especially the borrow functionality and aggregation pipeline) and the overall structure, and include the public link in your submission. Good luck!
